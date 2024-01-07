@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        async function AnimalFetch(){
+            const resp=await fetch("https://fakerapi.it/api/v1/persons",{
+                method:"GET"
+            })
+            const datas=await resp.json();
+            console.log(datas);
+        }
+    </script>
+    <button onclick="AnimalFetch()"> Get the Animals</button>
+</body>
+</html>
