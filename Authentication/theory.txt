@@ -1,0 +1,15 @@
+1)
+Hashing: its a one way process you take the message hash it and leave you dont need 
+decript and save again
+hence it is does not required password as you dont need to see the the original response
+
+2)
+Encription: Unlike hasing its 2 way include decript and Encription
+hence require the password one who write the passpord can only access the original response.
+
+
+3)
+Json Web Token(JWT)
+It takes Json as an input and return a token
+convert the json into the very long string
+more or less a digital signature
